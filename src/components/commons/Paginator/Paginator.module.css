@@ -1,0 +1,44 @@
+.numberOfPage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 0 15px 0;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    height: 40px;
+    & span {
+        transition: all .15s ease;
+        padding: 3px;
+
+        &:hover {
+            color: aqua;
+
+            font-size: 29px;
+        }
+    }
+}
+
+
+
+.pag {
+    font-size: 35px;
+    transition: all .15s ease;
+    &:hover {
+        color: aqua;
+
+        font-size: 45px;
+    }
+    color: white;
+    background: none;
+    border: none;
+}
+.page {
+    font-size: 20px;
+}
+.selectedPage {
+    letter-spacing: -1px;
+    font-weight: bold;
+    font-size: 24px;
+    color: aqua;
+}

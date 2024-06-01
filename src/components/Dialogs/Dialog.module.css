@@ -1,0 +1,57 @@
+.dialogs {
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+}
+
+.dialogsItems {
+    padding: 10px;
+}
+
+.dialogsItems .active {
+    color: blueviolet;
+}
+
+.dialog {
+    margin-bottom: 10px;
+
+    &:hover {
+        .avaFrame {
+
+            box-shadow: 0 0 8px #fff;
+        }
+    }
+}
+.dialog a {
+    color: #fff;
+    text-decoration: none;
+    &:hover{
+        transition: all .15s ease;
+        color: gray;
+    }
+}
+
+.messages {
+    padding: 10px;
+}
+
+.message {
+    color: #ffffff;
+}
+
+.persDialog{
+    display: flex;
+    column-gap: 5px;
+}
+
+.imgAva {
+    width: 30px;
+    height: 30px;
+}
+
+.avaFrame {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    overflow: hidden;
+    transition: all .2s ease;
+}

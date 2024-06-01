@@ -1,0 +1,26 @@
+
+.item {
+  color: greenyellow;
+  display: flex;
+  align-items: center;
+}
+
+.avatar {
+  width: 50px;
+  height: 50px;
+  transform: scale(1.2) translateY(-3px);
+  
+}
+.avatarWrapper {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+margin: 0 10px;
+}
+.likes {
+  color: #ffffff;
+  font-weight: 600;
+  padding: 2px 0 5px 10px;
+}
+

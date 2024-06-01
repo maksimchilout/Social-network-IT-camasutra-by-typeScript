@@ -1,0 +1,20 @@
+.userPhoto {
+    width: 80px;
+    height: 80px;
+}
+
+.avaContainer {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.buttonFollow {
+    background: green;
+    transition: .5s ease;
+}
+.buttonUnfollow{
+    background: red;
+    transition: .5s ease;
+}

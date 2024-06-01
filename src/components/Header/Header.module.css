@@ -1,0 +1,46 @@
+.header {
+    background-color: rgb(44, 48, 52);
+    grid-area: header;
+    border-radius: 10px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.header img {
+
+    animation: rotate 13s linear 0s infinite;
+    width: 50px;
+    height: 50px;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+.loginBlock {
+color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logOutButton{
+    background: transparent;
+    color: white;
+    border: none;
+    transition: .2s ease;
+    &:hover {
+        color: aqua;
+    }
+
+}

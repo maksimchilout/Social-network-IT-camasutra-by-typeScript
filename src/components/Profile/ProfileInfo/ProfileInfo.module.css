@@ -1,0 +1,17 @@
+
+.image {
+  max-height: 200px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.descriptionBlock {
+  padding: 10px;
+}
+
+.profileInfo {
+  color: #ffffff;
+}
+.contact {
+  padding-left: 10px;
+}
